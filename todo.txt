@@ -1,0 +1,26 @@
+- song name
+	- most used words in created song
+	- (use line from chorus when implemented?)
+	
+- label lyrics files
+	- verse
+	- chorus
+	- bridge
+	- breakdown
+	- sections to avoid? hum's, bah's?
+	
+- make it more intelligent **
+
+- write song of certain genre
+	- gather large amounts of lyrics for certain genres, take paramter on how many files you want to use in generating song
+	- code:
+		files = os.listdir(dirname)
+		for i in range len(numFilesInGenSong)
+			file = random.choice(files)
+			#remove file to avoid duplicates in dict
+			files.remove(file)
+			open(os.path.join(dirname,file), 'r')
+			...
+			...
+		
+- interactive prompt to create song of your choosing (genre, #lyrics to consume, length of song, etc)

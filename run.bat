@@ -1,0 +1,2 @@
+python casha.py
+pause
