@@ -2,7 +2,7 @@ import os
 import random
 import sys
 
-#Created using an idea from Nick Parlante's Google Python Class
+#Inspired by a program from Nick Parlante's google code class.
 #http://code.google.com/edu/languages/google-python-class/
 #mimic.py problem
 
