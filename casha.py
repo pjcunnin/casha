@@ -2,6 +2,10 @@ import os
 import random
 import sys
 
+#Created using an idea from Nick Parlante's Google Python Class
+#http://code.google.com/edu/languages/google-python-class/
+#mimic.py problem
+
 #builds dictionary(hash) of words from files in provided directory (dirname)
 def buildWordDict(dirname):
 	wordDict = {}
